@@ -1,0 +1,19 @@
+/* Login.css */
+
+.Form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.form_container
+{
+    background: darkblue;
+    padding: 30px;
+    border-radius: 20px;
+}
+.form_heading h1
+{
+    text-align: center;
+    
+}

@@ -1,0 +1,35 @@
+header
+{
+    width: 100%;
+    position: fixed;
+    background: #410d51;
+    position: fixed;
+    height: 80px;
+    padding: 20px;
+}
+.nav_bar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_list
+{
+    display: flex;
+    list-style: none;
+    column-gap: 2rem;
+    align-items: center;
+}
+.nav_list li a
+{
+    text-decoration: none;
+    color: white;
+}
+.nav_list li a:hover
+{
+    color: yellow;
+}
+.nav_bar_logo h2
+{
+    color: #ffff;
+}
