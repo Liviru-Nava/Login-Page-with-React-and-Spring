@@ -8,12 +8,97 @@
 }
 .form_container
 {
-    background: darkblue;
-    padding: 30px;
+    background: rgb(154, 15, 136);
     border-radius: 20px;
+    width: 400px;
+    height: 420px;
 }
 .form_heading h1
 {
     text-align: center;
-    
+    padding: 20px;
+    letter-spacing: 0.2rem;
+    font-size: 3rem;
 }
+.input_container
+{
+    padding: 20px;
+    width: 100%;
+}
+.username_input
+{
+    margin-bottom: 10%;
+
+}
+.username_input #username
+{
+    width: 90%;
+    height: 2rem;
+    border-radius: 0px 0px 5px 0px;
+    border: none;
+    padding: 10px;
+    background: none;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 1rem;
+    outline: none;
+}
+.password_input #password
+{
+    width: 90%;
+    height: 2rem;
+    border-radius: 0px 0px 5px 0px;
+    border: none;
+    padding: 10px;
+    background: none;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 1rem;
+    outline: none;
+}
+.button_submit {
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.button_submit #submit {
+    width: 50%;
+    height: 3rem;
+    border-radius: 10px;
+    border: 2px solid white;
+    background: none;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    text-align: center;
+    /*Important for span hover*/
+    display: inline-block;
+    position: relative;
+    transition: color .3s;
+    z-index: 1;
+}
+
+.button_submit #submit span {
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #f5b60ab0;
+    border-radius: 5px;
+    z-index: -1;
+    transition: 0.3s;
+}
+
+.button_submit #submit:hover span {
+    width: 100%;
+}
+.button_submit #submit:hover {
+    color: white;
+    transition: 0.25s ease-in;
+    font-size: 18px;
+}
+
+
