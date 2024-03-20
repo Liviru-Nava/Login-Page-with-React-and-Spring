@@ -8,7 +8,9 @@
 }
 .form_container
 {
-    background: rgb(154, 15, 136);
+    background: transparent;
+    border: 2px solid white;
+    backdrop-filter: blur(8px);
     border-radius: 20px;
     width: 400px;
     height: 420px;

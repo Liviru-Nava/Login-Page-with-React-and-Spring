@@ -12,13 +12,15 @@
 
 body,
 html {
-  background: #37113e;
+  background: #620153;
 }
 
 section,
 footer {
   padding: 70px 0px;
-  background: #240035;
+  background: url('./components/Assets/1575SeaatNightstarryskyandpinkclouds_generated.jpg'), #62015380;
+  background-size: cover;
+  background-position: center;
 }
 
 h1,
